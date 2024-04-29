@@ -1,0 +1,42 @@
+# Control Center Ubuntu
+sudo apt update -y && sudo apt upgrade -y
+sudo hostnamectl set-hostname controlcenter
+sudo reboot
+
+nano chave.pem
+(placed my private key here)
+
+nano debian.sh
+"ssh -i chave.pem admin@172.31.31.120"
+
+(when i type sh debian.sh it executes that script
+so i dont have to type the whole command)
+
+cp debian.sh redhat.sh
+"ssh -i chave.pem ec2-user@172.31.26.167"
+(same as before but for redhat)
+
+I decided I wanted a graphical interface.
+(Xfce chosen because it's performance friendly)
+
+sudo apt install -y xfce4 xfce4-goodies
+sudo apt install -y xrdp chromium-browser
+sudo su -
+sudo passwd ubuntu (password here so we can login through rdp)
+
+I shall now proceed with the Wazuh installation.
+
+
+
+# Debian
+sudo apt update -y && sudo apt upgrade -y
+sudo hostnamectl set-hostname DebianCli
+sudo reboot
+sudo apt install net-tools
+
+# Red Hat 
+sudo yum update -y
+sudo yum install nano
+sudo nano /etc/hostname
+"RedHat"
+sudo reboot
