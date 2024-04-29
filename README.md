@@ -1,92 +1,144 @@
-# Control-Project
-Control Project
+# Control Project
 
-# Control Center
+## Control Center
 
-**Operating System:** Windows 11
-**Platform:** AWS
-**Security Group: **
+### Operating System: 
+- Windows 11
+
+### Platform: 
+- AWS
+
+### Security Group:
 **Inbound:**
-RDP (3389) from my IP address
+- RDP (3389) from my IP address
+
 **Outbound:**
-All traffic Anywhere.
-**Elastic IP:** 34.193.213.145
-**Machine Type:** m5.large
-**Storage:** 64G
+- All traffic Anywhere.
 
-**Base Services:**
-New Relic
-Wazuh
-UPTIME ROBOT
-PagerDuty
-Splunk
+### Elastic IP: 
+- 34.193.213.145
 
-**# Debian Linux 1**
+### Machine Type: 
+- m5.large
 
-**Operating System:** Debian
-**Platform:** AWS
-**Security Group:**
+### Storage: 
+- 64G
+
+### Base Services:
+- New Relic
+- Wazuh
+- UPTIME ROBOT
+- PagerDuty
+- Splunk
+
+## Debian Linux 1
+
+### Operating System: 
+- Debian
+
+### Platform: 
+- AWS
+
+### Security Group:
 **Inbound:**
-SSH (22) from my IP address
+- SSH (22) from my IP address
+
 **Outbound:**
-All traffic Anywhere.
-**Elastic IP:** None
-**Machine Type:** t2.micro
-**Storage:** 30G
+- All traffic Anywhere.
 
-**Base Services:**
-HTTP
-NGINX
+### Elastic IP: 
+- None
 
+### Machine Type: 
+- t2.micro
 
+### Storage: 
+- 30G
 
-# Red Hat Linux 1
+### Base Services:
+- HTTP
+- NGINX
 
-**Operating System:** Red Hat
-**Platform:** AWS
-**Security Group:**
+## Red Hat Linux 1
+
+### Operating System: 
+- Red Hat
+
+### Platform: 
+- AWS
+
+### Security Group:
 **Inbound:**
-SSH (22) from my IP address
+- SSH (22) from my IP address
+
 **Outbound:**
-All traffic Anywhere.
-**Elastic IP:** None
-**Machine Type:** t2.micro
-**Storage:** 30G
+- All traffic Anywhere.
 
+### Elastic IP: 
+- None
 
-**Base Services:**
-HTTPS
-APACHE
+### Machine Type: 
+- t2.micro
 
-**# Windows Server 2022**
-**Operating System:** Windows Server 2022
-**Platform:** AWS
-**Security Group:**
+### Storage: 
+- 30G
+
+### Base Services:
+- HTTPS
+- APACHE
+
+## Windows Server 2022
+
+### Operating System: 
+- Windows Server 2022
+
+### Platform: 
+- AWS
+
+### Security Group:
 **Inbound:**
-RDP (3389) from my IP address
+- RDP (3389) from my IP address
+
 **Outbound:**
-All traffic Anywhere.
-**Elastic IP:** None
-**Machine Type:** c5.large
-**Storage:** 30G
+- All traffic Anywhere.
 
-**Base Services:**
-HTTP
-HTTPS
-IIS
+### Elastic IP: 
+- None
 
-**# Windows 11 Client**
-**Operating System:** Windows 11
-**Platform:** AWS
-**Security Group:**
+### Machine Type: 
+- c5.large
+
+### Storage: 
+- 30G
+
+### Base Services:
+- HTTP
+- HTTPS
+- IIS
+
+## Windows 11 Client
+
+### Operating System: 
+- Windows 11
+
+### Platform: 
+- AWS
+
+### Security Group:
 **Inbound:**
-RDP (3389) from my IP address
+- RDP (3389) from my IP address
+
 **Outbound:**
-All traffic Anywhere.
-**Elastic IP:** None
-**Machine Type:** c5.large
-**Storage:** 64G
+- All traffic Anywhere.
 
-**Base Services:**
-None
+### Elastic IP: 
+- None
 
+### Machine Type: 
+- c5.large
+
+### Storage: 
+- 64G
+
+### Base Services:
+- None
