@@ -43,6 +43,7 @@
 ### Security Group:
 **Inbound:**
 - SSH (22) from my IP address
+- SSH (22) from 172.31.19.15 (Control Machine)
 
 **Outbound:**
 - All traffic Anywhere.
@@ -71,6 +72,7 @@
 ### Security Group:
 **Inbound:**
 - SSH (22) from my IP address
+- SSH (22) from 172.31.19.15 (Control Machine)
 
 **Outbound:**
 - All traffic Anywhere.
