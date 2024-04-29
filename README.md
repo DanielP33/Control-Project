@@ -10,6 +10,7 @@
 
 ### Security Group:
 **Inbound:**
+- RDP (3389) from my IP address
 - SSH (22) from my IP address
 
 **Outbound:**
