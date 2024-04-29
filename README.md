@@ -3,14 +3,14 @@
 ## Control Center
 
 ### Operating System: 
-- Windows 11
+- Ubuntu
 
 ### Platform: 
 - AWS
 
 ### Security Group:
 **Inbound:**
-- RDP (3389) from my IP address
+- SSH (22) from my IP address
 
 **Outbound:**
 - All traffic Anywhere.
@@ -22,7 +22,7 @@
 - m5.large
 
 ### Storage: 
-- 64G
+- 30
 
 ### Base Services:
 - New Relic
