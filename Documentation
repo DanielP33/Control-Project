@@ -47,7 +47,7 @@ https://docs.docker.com/engine/install/debian/
 
 mkdir nginx
 (docker-compose instructions provided with documentation on the project files.)
-(You should now have your nginx server on http running successfully
+(You should now have your nginx server on http running successfully.)
 
 
 
@@ -69,5 +69,40 @@ sudo systemctl start wazuh-agent
 
 (docker installation)
 https://docs.docker.com/desktop/install/rhel/
+mkdir apache2
+(Dockerfile instructions provided with documentation on the project files.)
+(You should now have your apache server on https with self-signed certificates succesfully.)
+
+
+# Windows Server 2022
+(Change your password on Powershell, copy the two lines below.)
+
+$Secure_String_Pwd = ConvertTo-SecureString "[Your password here]" -AsPlainText -Force
+Set-LocalUser administrator -Password $Secure_String_Pwd
+
+(Reboot the system.)
+
+
+(Installing IIS)
+Open the server manager, Add roles and features.
+Next until -> Server Roles, scroll down and select:
+"Web Server (IIS)"
+Proceed with the installation.
+
+Open the IIS Manager in Tools.
+Go on your machine name, and double click machine certs
+Click "Create self-signed certificate"
+Write a Name for the certificate and select web hosting.
+
+Right click your website and click edit bindings and click ADD
+Type: HTTPS 
+SSL Cert: Select your previous self-generated cert
+Click Ok, should work now.
+
+# Windows 11
+
+
+
+
 
 
