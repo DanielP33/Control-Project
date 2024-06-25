@@ -1,6 +1,6 @@
 # Control Project
 This project is a comprehensive control system deployed across multiple AWS instances, featuring Ubuntu-based Control Center overseeing Debian, Red Hat Linux, Windows Server 2022, and Windows 11 Client machines, each configured with specific security groups, services, and platforms tailored to their respective roles.
-Note: They are all in the save availability zone.
+Note: They are all in the same availability zone.
 
 ## Control Center
 
